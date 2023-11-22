@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    margin: 10px 100px;
+}
+.child2 ul a li{
+display: inline-block;
+padding: 10px 10px;
+text-decoration: none;
+color: black;
+font-size: 20px;
+font-weight: 700;
+}
+.child2 {
+    margin-left: auto;
+}
+.child1 p{
+    font-size: 35px;
+    font-weight: 700;
+}
+.row{
+    background-image: url(pexels-deane-bayas-13627442.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;  
+}
+
+.row1 p{
+    background-color:red;
+    padding: 5px 25px;
+    color: white;
+    font-size: 17px;
+}
+
+.minor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.minor .img1{
+    background-image: url(pexels-diego-rodriguez-12514446.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img2{
+    background-image: url(pexels-harrison-haines-3536276.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img3{
+    background-image: url(pexels-harrison-haines-3536276.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img4{
+    background-image: url(pexels-jan-kopřiva-3349460.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img5{
+    background-image: url(pexels-jan-kopřiva-3354648.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img6{
+    background-image: url(pexels-johannes-plenio-3302441.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img7{
+    background-image: url(pexels-john-sullivan-92108.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img8{
+    background-image: url(pexels-leif-bergerson-9582592.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img9{
+    background-image: url(pexels-nishant-aneja-2436230.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img00{
+    background-image: url(pexels-nishant-aneja-2437113.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img01{
+    background-image: url(pexels-og-mpango-9197930.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+
+.minor .img02{
+    background-image: url(pexels-phenyo-deluxe-1486188.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img03{
+    background-image: url(pexels-pixabay-274974.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.minor .img04{
+    background-image: url(pexels-sachith-ravishka-kodikara-8911021.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+@media only screen and ( max-width:600px) {
+    nav{
+        display: flex;
+        /* flex-direction: column; */
+        margin: 10px 50px;
+    }
+
+    .child2 ul a li{
+        display: inline-block;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 700;
+        }
+        .child2 {
+            margin-left: auto;
+        }
+        .child1 p{
+            font-size: 20px;
+            font-weight: 900;
+        }
+        
+}
